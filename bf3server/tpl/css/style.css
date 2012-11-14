@@ -1,0 +1,37 @@
+.mapimage {
+	border: 1px #fff solid;
+	outline: 1px #ccc solid;
+}
+
+.rotation {
+	max-width: 100px;
+}
+
+table.bf3sindex { float: left; border-collapse: collapse; width: 100%; }
+	table.bf3sindex td { padding: 2px; margin: 0; }
+	table.bf3sindex tr { border-bottom: 1px solid #ccc; }
+
+table.bf3ssettings { float: left; border-collapse: collapse; }
+	table.bf3ssettings td { padding: 2px; margin: 0; }
+	table.bf3ssettings tr { border-bottom: 1px solid #ccc; }
+
+.width80 { width: 80%; }
+.width17 { width: 17%; }
+
+.currentmap {
+	float: left; margin-left: 20px; text-align: center;
+}
+.modename { font-size: 10px; }
+
+.maprotation {
+	float: left; margin: 5px; font-size: 10px; text-align: center;
+}
+
+.mapimageindex { text-align: center; margin-top: 10px; }
+
+a#bf3server-button { background-image: url(../img/bf3server-button.png); height: 24px; width: 100px; display: block; background-position: 0px -0px; }
+a#bf3server-button span { display: inherit; padding-top: 0px; font-size: 10px; color: #303030; line-height: 24px; text-transform: uppercase; font-weight: bold; }
+a#bf3server-button:hover { background-image: url(../img/bf3server-button.png); background-position: 0px -24px; color: #303030; text-decoration: none; }
+a#bf3server-button:active { background-image: url(../img/bf3server-button.png); background-position: 0px -48px; color: #303030; }
+
+.viewmore { text-align: right; }
